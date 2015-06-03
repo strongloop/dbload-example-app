@@ -6,9 +6,11 @@ Setup :
 
 1. Install memcache locally and start the memcached server on port 11211
 
-2. Build and deploy the app to a process manager server
+2. Start arc with slc arc --feature tracing
 
-3. Once the app is deployed, in a new shell, run this to generate load for the app - 
+3. Build and deploy the app to a process manager server
+
+4. Once the app is deployed, in a new shell, run this to generate load for the app - 
 > for ((i=1;i<=10000000;i++)); do   curl -v --header "Connection: keep-alive" "\<pm-host-ip\>:3001/chimera/once"; done
 
   
