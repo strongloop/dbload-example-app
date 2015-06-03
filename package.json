@@ -1,0 +1,34 @@
+{
+  "name": "dbload-example-app",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "compression": "^1.0.3",
+    "errorhandler": "^1.1.1",
+    "loopback": "^2.8.0",
+    "loopback-boot": "^2.4.0",
+    "loopback-datasource-juggler": "^2.7.0",
+    "restler": "^3.2.2",
+    "serve-favicon": "^2.0.1"
+  },
+  "optionalDependencies": {
+    "request": "~2.27.0",
+    "mongodb": "~1.x",
+    "redis": "~0.12.1",
+    "memcached": "~2.1.0",
+    "mysql": "~2.6.0",
+    "loopback-explorer": "~1.7.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "Load generating app to test metrics"
+}
