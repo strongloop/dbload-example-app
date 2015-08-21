@@ -1,4 +1,3 @@
-var app = require("./app");
 var async   = require('async');
 var redis = require('redis');
 
@@ -14,7 +13,7 @@ function doRedis(result, callback) {
     });
 }
 
-function chimeraData(res){
+function redisOperations(res){
   var x = 0;
   x += 1;
   doRedis("OK", function aboutToSendResponse(err, result){
@@ -32,8 +31,4 @@ function chimeraData(res){
   });
 }
 
-module.exports.chimeraData = chimeraData;
-
-
-
-
+module.exports.redisOperations = redisOperations;
