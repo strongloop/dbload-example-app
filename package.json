@@ -6,22 +6,33 @@
     "pretest": "jshint ."
   },
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "^1.4.2",
     "compression": "^1.0.3",
+    "cors": "^2.5.2",
     "errorhandler": "^1.1.1",
-    "loopback": "^2.8.0",
-    "loopback-boot": "^2.4.0",
-    "loopback-datasource-juggler": "^2.7.0",
-    "restler": "^3.2.2",
-    "serve-favicon": "^2.0.1"
+    "fs": "0.0.2",
+    "loopback": "^2.14.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-connector-oracle": "^2.2.1",
+    "loopback-connector-postgresql": "^2.3.1",
+    "loopback-connector-sqlite3": "^1.0.0",
+    "loopback-datasource-juggler": "^2.19.0",
+    "memcache": "^0.3.0",
+    "memcached": "^2.1.0",
+    "mongodb": "^2.0.42",
+    "mysql": "^2.9.0",
+    "oracle": "^0.3.8",
+    "oracledb": "^1.0.0",
+    "pg": "^4.4.1",
+    "redis": "^0.12.1",
+    "request": "^2.61.0",
+    "restler": "^3.3.0",
+    "serve-favicon": "^2.0.1",
+    "sqlite3": "^3.0.10",
+    "strong-oracle": "^1.6.6"
   },
   "optionalDependencies": {
-    "request": "~2.27.0",
-    "mongodb": "~1.x",
-    "redis": "~0.12.1",
-    "memcached": "~2.1.0",
-    "mysql": "~2.6.0",
-    "loopback-explorer": "~1.7.2"
+    "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
     "jshint": "^2.5.6"
@@ -30,5 +41,5 @@
     "type": "",
     "url": ""
   },
-  "description": "Load generating app to test metrics"
+  "description": "dbload-example-app"
 }

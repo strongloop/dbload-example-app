@@ -1,1 +1,24 @@
-{}
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgres": {
+    "host": "166.78.158.45",
+    "port": 5432,
+    "database": "test",
+    "password": "str0ng100pjs",
+    "name": "postgres",
+    "user": "test",
+    "connector": "postgresql"
+  },
+  "oracle": {
+    "host": "oracle-demo.strongloop.com",
+    "port": 1521,
+    "database": "XE",
+    "password": "L00pBack",
+    "name": "oracle",
+    "user": "demo",
+    "connector": "oracle"
+  }
+}
