@@ -11,7 +11,7 @@
     "cors": "^2.5.2",
     "errorhandler": "^1.1.1",
     "fs": "0.0.2",
-    "loopback": "^2.14.0",
+    "loopback": "^3.0.0",
     "loopback-boot": "^2.6.5",
     "loopback-connector-oracle": "^2.2.1",
     "loopback-connector-postgresql": "^2.3.1",
